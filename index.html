@@ -17,21 +17,19 @@
     <header>
         <nav>
             <div class="navbar">
-                    <a class="logo" href="">NF</a>
-                    <a class="navlink resume_button" href="/resume.pdf" target="blank">Resume</a>
-                    <a class="navlink" href="/#contact">Contact</a>
-                    <a class="navlink" href="/#projects">Projects</a>
-                    <a class="navlink" href="/#experience">Experience</a>
-                    <a class="navlink" href="/#about">About</a>                    
+                    <a class="logo" href="./index.html">NF</a>
+                    <a class="navlink resume_button" href="Natasha Ferenczy CV.pdf" target="blank">Resume</a>
+                    <a class="navlink" href="./contact.html">Contact</a>
+                    <a class="navlink" href="#projects">Projects</a>
+                    <a class="navlink" href="#about">About</a>                    
             </div>
         </nav>
     </header>
     <div id="content">
         <main>
             <section class="hero">
-                <h1>Hi, my name is</h1>
-                <h2>Natasha Ferenczy.</h2>
-                <h3 class="hero_h3">I'm learning to code and build websites.</h3>
+                <h1>Hi, I'm Natasha Ferenczy.</h1>
+                <h2 class="hero_h2">I'm learning to code and build websites.</h2>
                 <div class="hero_description">
                     <p>I'm a marketing and communications professional living in London, UK teaching myself to design
                         and code websites and more.</p>
@@ -40,41 +38,74 @@
                     <a href="mailto:name@gmail.com">Get In Touch</a>
                 </div>
             </section>
+            <div class="divider">
+                <img src="./2647319-astrology/svg/025-saturn.svg">
+                <img src="./2647319-astrology/svg/010-constellations.svg">
+                <img src="./2647319-astrology/svg/032-sun.svg">
+            </div>
+
             <section id="about" class="styled_container">
                 <h3 class="heading">About Me</h3>
-                <div class="">
-                    <p>Hi! I'm Tash, a marketing and communications professional living in London, UK.</p>
-                    <p>I have experience with social media, email marketing, SEO, content marketing, and delivering
-                        successful and engaging communications.</p>
-                    <p>I have four years of experience working in small communications and marketing teams at
-                        not-for-profit organisations, and I am now expanding my skills and learning to code.</p>
-                    <p>I am currently working through the Front-End Engineer Path on Cocecademy.</p>
+                <div class="inner">
+                    <div class="inner-text">
+                        <p>Hi! I'm Tash, a marketing and communications professional living in London, UK.</p>
+                        <p>I have four years of experience working in small communications and marketing teams at
+                            not-for-profit organisations, and I am now expanding my skills and learning to code. I have experience with social media, email marketing, SEO, and content marketing.</p>
+                        <p>I am currently working through the Front-End Engineer Path on Cocecademy. The technologies I've been using recently include:</p>
+                        <ul class="skills-list inner-text">
+                            <li>JavaScript (ES6)</li>
+                            <li>HTML & CSS</li>
+                            <li>WordPress</li>
+                        </ul>
+                    </div>
+                    <div class="profile_img">
+                        <img src="./profile-image.png" class="profile-img" alt="Profile image">
+                    </div>
                 </div>
-                <div class="profile_img">
-                    <img src="./profile_image.jpg" alt="Profile image">
-                </div>
-                <section id="projects" class="styled_container">
+
+                <section id="projects" class="projects">
                     <h3 class="heading">Things I've Built</h3>
-                    <div class="featured_project">
-                        <h4>Adopt A Turtle</h4>
-                        <a href="https://nferenczy.github.io/turtle-project/">Project Link</a>
-                        <p>A simple static charity website where
-                            you can find out information on marine turtles and purchase an adoption pack.</p>
+                    <div class="featured-project">
+                        <img src="./turtle-project.png" class="proj-img" alt="Turtle Project Website Screenshot">
+                        <div class="project-text">
+                           <h4 class="proj-header">Adopt A Turtle</h4>
+                            <p class="proj-description">A simple static charity website where
+                            you can find out information on marine turtles and purchase an adoption pack.</p> 
+                            <a href="https://nferenczy.github.io/turtle-project/" target="blank"><img src="link.png" class="link-img"></a>
+                            <a href="https://github.com/nferenczy/turtle-project/" target="blank"><img src="GitHub-Mark.png" class="link-img"></a>
+                            <p class="techs">Technologies used: HTML & CSS.</p>
+                        </div>
                     </div>
-                    <div class="featured_project">
-                        <h4>Bootstrap App Website</h4>
-                        <a href="https://nferenczy.github.io/bootstrap-tindog/">Project Link</a>
-                        <p>A website built using Bootstrap to promote a mobile app.</p>
+                    <div class="featured-project">
+                        <img src="./Tindog mockup.png" class="proj-img" alt="Tindog Bootstrap Project Mockup">
+                        <div class="project-text">
+                            <h4>Bootstrap App Website</h4>
+                            <p>A website built using Bootstrap to promote a mobile dating app for dogs.</p>
+                            <a href="https://nferenczy.github.io/bootstrap-tindog/" target="blank"><img src="link.png" class="link-img"></a>
+                            <a href="https://github.com/nferenczy/bootstrap-tindog/" target="blank"><img src="GitHub-Mark.png" class="link-img"></a>
+                            <p class="techs">Technologies used: HTML, CSS, and Bootstrap.</p>
+                        </div>
                     </div>
-                    <div class="featured_project">
-                        <h4>Credit Card Checker</h4>
-                        <a href="https://github.com/nferenczy/credit-card-checker">Project Link</a>
-                        <p>A JavaScript app that checks whether credit card numbers are invalid.</p>
+                    <div class="featured-project">
+                        <img src="credit-card-checker-mockup.png" class="proj-img" alt="Credit Card Checker Mockup">
+                        <div class="project-text">
+                            <h4>Credit Card Checker</h4>
+                            <p>A JavaScript app that checks whether credit card numbers are invalid.</p>
+                            <a href="https://github.com/nferenczy/credit-card-checker" target="blank"><img src="GitHub-Mark.png" class="link-img"></a>
+                            <p class="techs">Technologies used: JavaScript.</p>
+                        </div>
                     </div>
                 </section>
             </section>
         </main>
     </div>
+    <footer class="footer">
+        <p>Designed and built by Natasha Ferenczy.</p>
+        <img src="2647319-astrology/svg/015-key.svg" class="footer-img">
+        <img src="2647319-astrology/svg/026-scorpio.svg" class="footer-img">
+        <img src="2647319-astrology/svg/019-moon.svg" class="footer-img">
+        <p>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+    </footer>
     <script src="./script.js"></script>
 </body>
 
